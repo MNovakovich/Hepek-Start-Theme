@@ -1,0 +1,35 @@
+/* CSS Document */
+/*!
+Theme Name: Hepek
+Description: Blank Wordpress Theme
+Version: 3.0
+Author: Marko Novakovic
+Author URI: http://www.novakovicmarko.com
+Tags: starter theme, light, sass, gulp, livereload
+
+        The CSS, XHTML is released under GPL:
+        http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+/* Vendor */
+
+
+
+/* Setup */
+@import "base/reset";
+@import "base/mixins";
+@import "base/variables";
+@import "base/fonts";
+@import "base/globals";
+
+
+/* WP parts */
+@import "layouts/header";
+@import "pages/homepage";
+@import "layouts/sidebar";
+@import "layouts/footer";
+
+
+
+
