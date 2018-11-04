@@ -21,32 +21,39 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 blockquote:before, blockquote:after, q:before, q:after {
-  content: none; }
+  content: none;
+}
 
 /* line 2, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 /* =======================================================================
 ## ++ Media Queries
@@ -82,15 +89,18 @@ table {
 ========================================================================== */
 /* line 4, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 html {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 /* line 8, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 /* line 12, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* =======================================================================
 ## ++ Cleafix
@@ -99,12 +109,14 @@ body {
 /* line 22, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 * html .clearfix {
   height: 1%;
-  overflow: visible; }
+  overflow: visible;
+}
 
 /* float clearing for IE7 */
 /* line 28, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 * + html .clearfix {
-  min-height: 1%; }
+  min-height: 1%;
+}
 
 /* float clearing for everyone else */
 /* line 33, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
@@ -114,11 +126,13 @@ body {
   display: block;
   height: 0;
   visibility: hidden;
-  font-size: 0; }
+  font-size: 0;
+}
 
 /* line 42, /var/www/html/celsius-network/wp-content/themes/hepek/sass/base/_globals.scss */
 .clr {
-  clear: both; }
+  clear: both;
+}
 
 /* WP parts */
 
